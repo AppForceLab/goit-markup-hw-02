@@ -15,11 +15,6 @@
   --logo-font: "Raleway", sans-serif;
   --main-font: "Roboto", sans-serif;
 
-  --title-size: 56px;
-  --sub-title-size: 36px;
-  --card-title-size: 20px;
-  --main-text-size: 16px;
-  --small-text-size: 12px;
 }
 /* ========== /VARIABLES ========== */
 
@@ -45,7 +40,7 @@ body {
 
 .section-title {
   color: var(--dark-color);
-  font-size: var(--sub-title-size);
+  font-size: var(36px);
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
@@ -54,14 +49,14 @@ body {
 
 .card-title {
   color: var(--dark-color);
-  font-size: var(--card-title-size);
+  font-size: var(20px);
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
 .card-text {
-  font-size: var(--main-text-size);
+  font-size: var(16px);
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -86,7 +81,7 @@ body {
 
 .menu-link {
   color: var(--dark-color);
-  font-size: var(--main-text-size);
+  font-size: var(16px);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -103,7 +98,7 @@ body {
 
 .address-link {
   color: var(--text-color);
-  font-size: var(--main-text-size);
+  font-size: var(16px);
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -123,7 +118,7 @@ body {
 
 .hero-title {
   color: var(--white-color);
-  font-size: var(--title-size);
+  font-size: var(56px);
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
@@ -160,7 +155,7 @@ body {
 border: 1px solid var(--accent-color);
 background: var(--ligth-background-color);
 color: var(--active-color);
-font-size: var(--main-text-size);
+font-size: var(16px);
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
@@ -191,7 +186,7 @@ letter-spacing: 0.64px;
 
 .footer-text {
   color: var(--ligth-background-color);
-  font-size: var(--main-text-size);
+  font-size: var(16px);
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
