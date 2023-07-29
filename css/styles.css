@@ -18,7 +18,8 @@
 }
 /* ========== /VARIABLES ========== */
 
-/* ========== GENERAL ========== */
+
+/* ========== GLOBAL ========== */
 
 .list {
   list-style-type: none;
@@ -63,7 +64,9 @@ body {
   letter-spacing: 0.32px;
 }
 
-/* ========== /GENERAL ========== */
+/* ========== /GLOBAL ========== */
+
+
 
 /* ========== HEADER ========== */
 .logo {
@@ -163,6 +166,7 @@ body {
 border: 1px solid var(--accent-color);
 background: var(--ligth-background-color);
 color: var(--active-color);
+font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
