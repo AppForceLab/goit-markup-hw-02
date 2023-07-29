@@ -12,12 +12,10 @@
   --modal-background-color: #fcfcfc;
   --white-color: #ffffff;
 
-  --logo-font: "Raleway", sans-serif;
-  --main-font: "Roboto", sans-serif;
-
+  --logo-font: 'Raleway', sans-serif;
+  --main-font: 'Roboto', sans-serif;
 }
 /* ========== /VARIABLES ========== */
-
 
 /* ========== GLOBAL ========== */
 
@@ -61,12 +59,11 @@ body {
 .card-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 /* ========== /GLOBAL ========== */
-
-
 
 /* ========== HEADER ========== */
 .logo {
@@ -97,7 +94,7 @@ body {
   color: var(--hover-color);
 }
 
-.main-address{
+.main-address {
   font-style: normal;
 }
 
@@ -114,7 +111,6 @@ body {
 }
 
 /* ========== /HEADER ========== */
-
 
 /* ========== HERO ========== */
 .hero-section {
@@ -133,7 +129,7 @@ body {
 .hero-btn {
   background-color: var(--active-color);
   color: var(--white-color);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -146,7 +142,6 @@ body {
 }
 /* ========== /HERO ========== */
 
-
 /* ========== OUR TEAM ========== */
 
 .team-section {
@@ -158,19 +153,17 @@ body {
 
 /* ========== /OUR TEAM ========== */
 
-
-
 /* ========== PORTFOLIO ========== */
 
 .filter-btn {
-border: 1px solid var(--accent-color);
-background: var(--ligth-background-color);
-color: var(--active-color);
-font-family: 'Roboto', sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.64px;
+  border: 1px solid var(--accent-color);
+  background: var(--ligth-background-color);
+  color: var(--active-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
 }
 
 .filter-btn:hover,
@@ -179,13 +172,11 @@ letter-spacing: 0.64px;
   color: var(--white-color);
 }
 
-.project-card{
+.project-card {
   border: 1px solid var(--accent-color);
-
 }
 
 /* ========== /PORTFOLIO ========== */
-
 
 /* ========== FOOTER ========== */
 .page-footer {
