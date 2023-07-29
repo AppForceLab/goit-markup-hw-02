@@ -24,18 +24,12 @@
 /* ========== /VARIABLES ========== */
 
 /* ========== GENERAL ========== */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
-.list-reset {
+.list {
   list-style-type: none;
 }
 
-.link-reset {
+.link {
   text-decoration: none;
 }
 
@@ -46,6 +40,7 @@ html {
 body {
   font-family: var(--main-font);
   color: var(--text-color);
+  background-color: var(--white-color);
 }
 
 .section-title {
@@ -75,7 +70,8 @@ body {
 
 /* ========== HEADER ========== */
 .logo {
-  color: var(--dark-color);
+  color: var(--active-color);
+
   font-family: var(--logo-font);
   font-size: 18px;
   font-weight: 800;
@@ -85,7 +81,7 @@ body {
 }
 
 .colored-logo {
-  color: var(--active-color);
+  color: var(--dark-color);
 }
 
 .menu-link {
@@ -99,6 +95,10 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--hover-color);
+}
+
+.main-address{
+  font-style: normal;
 }
 
 .address-link {
@@ -185,7 +185,7 @@ letter-spacing: 0.64px;
   background-color: var(--hero-background-color);
 }
 
-.page-footer .logo {
+.page-footer .colored-logo {
   color: var(--ligth-background-color);
 }
 
